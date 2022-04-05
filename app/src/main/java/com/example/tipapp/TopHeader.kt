@@ -20,6 +20,7 @@ fun TopHeader(totalPerPerson: Double = 0.0) {
         modifier = Modifier
             .fillMaxWidth()
             .height(150.dp)
+            .padding(5.dp)
             .clip(shape = RoundedCornerShape(corner = CornerSize(15.dp))),
         color = Color(0xFFE9D7F7)
     ) {
